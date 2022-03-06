@@ -1,0 +1,35 @@
+.messageItem {
+    display: flex;
+    align-items: end;
+    color:white;
+}
+
+.name{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.arrow{
+    height: 20px;
+    width:20px;
+    background: radial-gradient(circle at top left, rgba(0,0,0,0), 20px, green 0);
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.item {
+    padding: 0.2em 0.8em;
+    border-radius: 1em 1em 1em 0;
+    background-color: green;
+}
+
+.data{
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.3;
+}
