@@ -11,8 +11,8 @@
 
 .arrow{
     height: 20px;
-    width:20px;
-    background: radial-gradient(circle at top left, rgba(0,0,0,0), 20px, green 0);
+    width: 20px;
+    background: radial-gradient(circle at top left, rgba(0,0,0,0) 20px, green 0);
 }
 
 .avatar {
@@ -26,6 +26,12 @@
     padding: 0.2em 0.8em;
     border-radius: 1em 1em 1em 0;
     background-color: green;
+}
+
+.message {
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
 }
 
 .data{
